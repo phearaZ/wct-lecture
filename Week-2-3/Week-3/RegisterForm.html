@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 2px
+    }
+
+    label {
+        display: inline-block;
+        width: 150px;
+        text-align: left;
+        margin-right: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="tel"] {
+        width: 200px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .reset {
+        padding-left: 165px;
+        display: flex;
+        gap: 0px;
+    }
+</style>
+
+<body>
+
+</body>
+<h1>Register Form </h1>
+<Form action="/action_page.php">
+    <label for="">Email*</label>
+    <input type="email" name="Email" id="" required required autocomplete="off">
+    <br>
+    <label for="">Password*</label>
+    <input type="password" minlength="8" name="Email" id="" required autocomplete="off">
+    <label for="">Confirm Password*</label>
+    <input type="password" minlength="8" name="Email" id="" required autocomplete="off"><br>
+    <p style="margin: 0;">(Min length 8 characters)</p>
+    <label for="">Phone*</label>
+    <input type="tel" name="Email" id="" required autocomplete="off"><br>
+    <label for=""> Gender *</label>
+    <input type="radio" name="gender" /> Female
+    <input type="radio" name="gender" /> Male
+    <div class="reset">
+        <input type="reset" value="Clear">
+        <input type="submit" value="Submit">
+    </div>
+</Form>
+
+</html>
