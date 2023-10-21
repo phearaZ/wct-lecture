@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(30, 35, 41);
+}
+div{
+    background-color: rgb(241, 152, 59);
+    width: 220px;
+}
+p{
+    color: white;
+    text-indent: 30px;
+}
+h3{
+    color: white;
+}
